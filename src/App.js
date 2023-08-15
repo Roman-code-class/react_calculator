@@ -1,9 +1,9 @@
-import Head from "./components/Head.js";
+import Calk from "./components/Calk.js";
 
 function App() {
   return (
     <>
-      <Head />
+      <Calk />
     </>
   );
 }

@@ -16,9 +16,9 @@ const selectBefore = (
 );
 const Head = () => (
   <Space direction="vertical">
-    <InputNumber addonBefore="+" defaultValue={100} />
-    <InputNumber addonBefore={selectBefore} defaultValue={100} />
-    <InputNumber defaultValue={100} disabled />
+    <InputNumber addonBefore="+" defaultValue={0} />
+    <InputNumber addonBefore={selectBefore} defaultValue={0} />
+    <InputNumber defaultValue={0} disabled />
   </Space>
 );
 export default Head;
