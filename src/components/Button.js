@@ -15,7 +15,7 @@ const Buttons = () => {
         newLoadings[index] = false;
         return newLoadings;
       });
-    }, 6000);
+    }, 1000);
   };
   return (
     <Space direction="vertical">
